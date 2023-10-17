@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #6E6E6E;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.website1.Contact">
+    <children>
+        <AnchorPane prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #090974;">
+            <children>
+                <AnchorPane layoutX="10.0" layoutY="9.0" prefHeight="462.0" prefWidth="619.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 30;">
+                    <children>
+                        <ImageView fx:id="logoLabel" fitHeight="151.0" fitWidth="531.0" layoutX="44.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Images/nuspekov-removebg-preview.png" />
+                            </image>
+                        </ImageView>
+                  <Label layoutX="242.0" layoutY="88.0" prefHeight="45.0" prefWidth="136.0" text="Contacts:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="20.0" layoutY="132.0" prefHeight="249.0" prefWidth="580.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;">
+                     <children>
+                        <ImageView fx:id="tgLabel" fitHeight="124.0" fitWidth="119.0" layoutX="230.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/3787425_telegram_logo_messanger_social_social%20media_icon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="instaLabel" fitHeight="124.0" fitWidth="119.0" layoutX="69.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/3225191_app_instagram_logo_media_popular_icon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="steamLabel" fitHeight="145.0" fitWidth="143.0" layoutX="389.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/8679449_steam_fill_icon.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="56.0" layoutY="34.0" text=" Nuspekov Alikhan, ID: 220107004" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="29.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                        <Button fx:id="backButton" layoutX="20.0" layoutY="401.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="&lt;- Back" textFill="WHITE">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

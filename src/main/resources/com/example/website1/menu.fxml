@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #6E6E6E;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.website1.Menu">
+    <children>
+      <AnchorPane prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #090974;">
+         <children>
+            <AnchorPane layoutX="10.0" layoutY="9.0" prefHeight="461.0" prefWidth="174.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 30;">
+               <children>
+                  <Button fx:id="techButton" layoutX="35.0" layoutY="200.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="Technology" textFill="WHITE" />
+                  <Button fx:id="busButton" layoutX="35.0" layoutY="249.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="Business" textFill="WHITE" />
+                  <Button fx:id="econButton" layoutX="35.0" layoutY="300.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="Economy" textFill="WHITE" />
+                  <Button fx:id="contactButton" layoutX="36.0" layoutY="395.0" mnemonicParsing="false" style="-fx-background-color: #3b3b3b;" text="Contact us" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Button>
+                  <Button fx:id="sportButton" layoutX="35.0" layoutY="150.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="Sports" textFill="WHITE" />
+                  <ImageView fx:id="logoLabel" fitHeight="124.0" fitWidth="109.0" layoutX="41.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/nuspekovlogo.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="outButton" layoutX="56.0" layoutY="357.0" mnemonicParsing="false" style="-fx-background-color: #6E6E6E; -fx-background-radius: 30;" text="Log Out" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="sportBack" layoutX="209.0" layoutY="27.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="105.0" fitWidth="183.0" layoutX="9.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/sportImages/img.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="117.0" prefHeight="80.0" prefWidth="183.0" text="Kazakhstan scored twice late on as they came back from two goals down to stun Argentina in their Euro 2024 qualifier." textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="techBack" layoutX="426.0" layoutY="27.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="8.0" layoutY="109.0" prefHeight="67.0" prefWidth="183.0" text="Apple company released new Iphone XX" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="103.0" fitWidth="183.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Images/techImages/img.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="busBack" layoutX="209.0" layoutY="248.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="183.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Images/businessImages/img.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="8.0" layoutY="111.0" prefHeight="80.0" prefWidth="183.0" text="Kazakhstan and UAE will make new businnes project in 2024" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="econBack" layoutX="426.0" layoutY="248.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b3b3b; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="183.0" layoutX="9.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Images/economyImages/img.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="120.0" prefHeight="80.0" prefWidth="183.0" style="-fx-background-radius: 15;" text="KZT exchange rate has risen significantly compared to last year now 1 Tenge = 30 Dollars" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
